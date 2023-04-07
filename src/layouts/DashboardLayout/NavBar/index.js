@@ -193,27 +193,27 @@ const navConfigAgent = [
             icon: MailIcon,
             href: '/app/data/messages'
           },
-          {
-            title: 'Photos',
-            icon: CameraIcon,
-            href: '/app/data/photos'
-          },
-          {
-            title: 'Videos',
-            icon: BsCameraVideo,
-            href: '/app/data/videos'
-          }
-          ,
-          {
-            title: 'Audios',
-            icon: SpeakerIcon,
-            href: '/app/data/audios'
-          },
-          {
-            title: 'Documents',
-            icon: ReceiptIcon,
-            href: '/app/data/documents'
-          },
+          // {
+          //   title: 'Photos',
+          //   icon: CameraIcon,
+          //   href: '/app/data/photos'
+          // },
+          // {
+          //   title: 'Videos',
+          //   icon: BsCameraVideo,
+          //   href: '/app/data/videos'
+          // }
+          // ,
+          // {
+          //   title: 'Audios',
+          //   icon: SpeakerIcon,
+          //   href: '/app/data/audios'
+          // },
+          // {
+          //   title: 'Documents',
+          //   icon: ReceiptIcon,
+          //   href: '/app/data/documents'
+          // },
           {
             title: 'Locations',
             icon: MapPinIcon,
