@@ -52,6 +52,18 @@ const routesConfig = [
         path: '/app',
         component: () => <Redirect to="/app/dashboard" />
       },
+      
+  /**
+   * 
+   * 
+   */
+    {
+      exact: true,
+      path: '/app/test',
+      component: lazy(() => import('src/views/TestView/TestView'))
+    },
+
+
       {
         exact: true,
         path: '/app/dashboard',
