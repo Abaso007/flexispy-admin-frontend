@@ -123,7 +123,7 @@ const routesConfig = [
       {
         exact: true,
         path: '/app/data/documents',
-        component: lazy(() => import('src/views/data/documents'))    
+        component: lazy(() => import('src/views/data/Documents'))    
       },
       {
         exact: true,
