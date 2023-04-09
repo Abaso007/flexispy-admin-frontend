@@ -85,7 +85,8 @@ function App() {
   const googleTranslateElementInit = () => {
     new window.google.translate.TranslateElement(
       {
-        pageLanguage: "zn-CH",
+        pageLanguage: "zn-CN",
+        includedLanguages: "zh-CN,en,zh-TW",
         autoDisplay: false
       },
       "google_translate_element"
