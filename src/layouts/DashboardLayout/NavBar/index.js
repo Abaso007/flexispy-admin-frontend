@@ -57,88 +57,88 @@ const navConfig = [
         icon: UserIcon,
         href: '/app/account/profile'
       },
-      {
-        title: 'Data',
-        icon: LayerIcon,
-        items: [
-          {
-            title: 'Call Log',
-            icon: PhoneIcon,
-            href: '/app/data/call/log/list'
-          },
-          {
-            title: 'Call Recording',
-            icon: PhoneCallIcon,
-            href: '/app/data/call/recordings'
-          },
-          {
-            title: 'VoIP',
-            icon: MdAddCall,
-            href: '/app/data/voip/list'
-          },
-          {
-            title: 'VoIP Records',
-            icon: MdWhatsapp,
-            href: '/app/data/voip/records'
-          },
-          {
-            title: 'Emails',
-            icon: MailIcon,
-            href: '/app/data/messages'
-          },
-          // {
-          //   title: 'Photos',
-          //   icon: CameraIcon,
-          //   href: '/app/data/photos'
-          // },
-          // {
-          //   title: 'Videos',
-          //   icon: BsCameraVideo,
-          //   href: '/app/data/videos'
-          // }
-          // ,
-          // {
-          //   title: 'Audios',
-          //   icon: SpeakerIcon,
-          //   href: '/app/data/audios'
-          // },
-          // {
-          //   title: 'Documents',
-          //   icon: ReceiptIcon,
-          //   href: '/app/data/documents'
-          // },
-          {
-            title: 'Locations',
-            icon: MapPinIcon,
-            href: '/app/data/locations'
-          },
-          {
-            title: 'App Activity',
-            icon: MdPhoneAndroid,
-            href: '/app/data/application/history'
-          },
-          {
-            title: 'Web Activity',
-            icon: GlobeIcon,
-            href: '/app/data/web/history'
-          },
-          {
-            title: 'Address Book',
-            icon: BookIcon,
-            href: '/app/data/addressbook'
-          }
-        ]
-      },
-      {
-        title: 'Device Number',
-        icon: UserIcon,
-        href: '/app/monitor'
-      },
-      {
-        title: 'Signal Company',
-        icon: MdAddBusiness,
-        href: '/app/signal/company'
-      }
+      // {
+      //   title: 'Data',
+      //   icon: LayerIcon,
+      //   items: [
+      //     {
+      //       title: 'Call Log',
+      //       icon: PhoneIcon,
+      //       href: '/app/data/call/log/list'
+      //     },
+      //     {
+      //       title: 'Call Recording',
+      //       icon: PhoneCallIcon,
+      //       href: '/app/data/call/recordings'
+      //     },
+      //     {
+      //       title: 'VoIP',
+      //       icon: MdAddCall,
+      //       href: '/app/data/voip/list'
+      //     },
+      //     {
+      //       title: 'VoIP Records',
+      //       icon: MdWhatsapp,
+      //       href: '/app/data/voip/records'
+      //     },
+      //     {
+      //       title: 'Emails',
+      //       icon: MailIcon,
+      //       href: '/app/data/messages'
+      //     },
+      //     // {
+      //     //   title: 'Photos',
+      //     //   icon: CameraIcon,
+      //     //   href: '/app/data/photos'
+      //     // },
+      //     // {
+      //     //   title: 'Videos',
+      //     //   icon: BsCameraVideo,
+      //     //   href: '/app/data/videos'
+      //     // }
+      //     // ,
+      //     // {
+      //     //   title: 'Audios',
+      //     //   icon: SpeakerIcon,
+      //     //   href: '/app/data/audios'
+      //     // },
+      //     // {
+      //     //   title: 'Documents',
+      //     //   icon: ReceiptIcon,
+      //     //   href: '/app/data/documents'
+      //     // },
+      //     {
+      //       title: 'Locations',
+      //       icon: MapPinIcon,
+      //       href: '/app/data/locations'
+      //     },
+      //     {
+      //       title: 'App Activity',
+      //       icon: MdPhoneAndroid,
+      //       href: '/app/data/application/history'
+      //     },
+      //     {
+      //       title: 'Web Activity',
+      //       icon: GlobeIcon,
+      //       href: '/app/data/web/history'
+      //     },
+      //     {
+      //       title: 'Address Book',
+      //       icon: BookIcon,
+      //       href: '/app/data/addressbook'
+      //     }
+      //   ]
+      // },
+      // {
+      //   title: 'Device Number',
+      //   icon: UserIcon,
+      //   href: '/app/monitor'
+      // },
+      // {
+      //   title: 'Signal Company',
+      //   icon: MdAddBusiness,
+      //   href: '/app/signal/company'
+      // }
     ]
   }
 ];
@@ -164,88 +164,88 @@ const navConfigAgent = [
         icon: UsersIcon,
         href: '/app/account/myusers'
       },
-      {
-        title: 'Data',
-        icon: LayerIcon,
-        items: [
-          {
-            title: 'Call Log',
-            icon: PhoneIcon,
-            href: '/app/data/call/log/list'
-          },
-          {
-            title: 'Call Recording',
-            icon: PhoneCallIcon,
-            href: '/app/data/call/recordings'
-          },
-          {
-            title: 'VoIP',
-            icon: MdAddCall,
-            href: '/app/data/voip/list'
-          },
-          {
-            title: 'VoIP Records',
-            icon: MdWhatsapp,
-            href: '/app/data/voip/records'
-          },
-          {
-            title: 'Emails',
-            icon: MailIcon,
-            href: '/app/data/messages'
-          },
-          // {
-          //   title: 'Photos',
-          //   icon: CameraIcon,
-          //   href: '/app/data/photos'
-          // },
-          // {
-          //   title: 'Videos',
-          //   icon: BsCameraVideo,
-          //   href: '/app/data/videos'
-          // }
-          // ,
-          // {
-          //   title: 'Audios',
-          //   icon: SpeakerIcon,
-          //   href: '/app/data/audios'
-          // },
-          // {
-          //   title: 'Documents',
-          //   icon: ReceiptIcon,
-          //   href: '/app/data/documents'
-          // },
-          {
-            title: 'Locations',
-            icon: MapPinIcon,
-            href: '/app/data/locations'
-          },
-          {
-            title: 'App Activity',
-            icon: MdPhoneAndroid,
-            href: '/app/data/application/history'
-          },
-          {
-            title: 'Web Activity',
-            icon: GlobeIcon,
-            href: '/app/data/web/history'
-          },
-          {
-            title: 'Address Book',
-            icon: BookIcon,
-            href: '/app/data/addressbook'
-          }
-        ]
-      },
-      {
-        title: 'Device Number',
-        icon: UserIcon,
-        href: '/app/monitor'
-      },
-      {
-        title: 'Signal Company',
-        icon: MdAddBusiness,
-        href: '/app/signal/company'
-      }
+      // {
+      //   title: 'Data',
+      //   icon: LayerIcon,
+      //   items: [
+      //     {
+      //       title: 'Call Log',
+      //       icon: PhoneIcon,
+      //       href: '/app/data/call/log/list'
+      //     },
+      //     {
+      //       title: 'Call Recording',
+      //       icon: PhoneCallIcon,
+      //       href: '/app/data/call/recordings'
+      //     },
+      //     {
+      //       title: 'VoIP',
+      //       icon: MdAddCall,
+      //       href: '/app/data/voip/list'
+      //     },
+      //     {
+      //       title: 'VoIP Records',
+      //       icon: MdWhatsapp,
+      //       href: '/app/data/voip/records'
+      //     },
+      //     {
+      //       title: 'Emails',
+      //       icon: MailIcon,
+      //       href: '/app/data/messages'
+      //     },
+      //     // {
+      //     //   title: 'Photos',
+      //     //   icon: CameraIcon,
+      //     //   href: '/app/data/photos'
+      //     // },
+      //     // {
+      //     //   title: 'Videos',
+      //     //   icon: BsCameraVideo,
+      //     //   href: '/app/data/videos'
+      //     // }
+      //     // ,
+      //     // {
+      //     //   title: 'Audios',
+      //     //   icon: SpeakerIcon,
+      //     //   href: '/app/data/audios'
+      //     // },
+      //     // {
+      //     //   title: 'Documents',
+      //     //   icon: ReceiptIcon,
+      //     //   href: '/app/data/documents'
+      //     // },
+      //     {
+      //       title: 'Locations',
+      //       icon: MapPinIcon,
+      //       href: '/app/data/locations'
+      //     },
+      //     {
+      //       title: 'App Activity',
+      //       icon: MdPhoneAndroid,
+      //       href: '/app/data/application/history'
+      //     },
+      //     {
+      //       title: 'Web Activity',
+      //       icon: GlobeIcon,
+      //       href: '/app/data/web/history'
+      //     },
+      //     {
+      //       title: 'Address Book',
+      //       icon: BookIcon,
+      //       href: '/app/data/addressbook'
+      //     }
+      //   ]
+      // },
+      // {
+      //   title: 'Device Number',
+      //   icon: UserIcon,
+      //   href: '/app/monitor'
+      // },
+      // {
+      //   title: 'Signal Company',
+      //   icon: MdAddBusiness,
+      //   href: '/app/signal/company'
+      // }
     ]
   }
 ]
@@ -425,14 +425,7 @@ function NavBar({ openMobile, onMobileClose, }) {
                   key={state}
                   value={state}
                 >
-                    {/* <PhoneInput
-                      className={classes.phoneInputcontainer}
-                      name = "phonInput"
-                      value={state}
-                      onChange = {setCurrentPhone}
-                      disabled
-                    />   */}
-                    {formatPhoneNumberIntl(state)}
+                  {formatPhoneNumberIntl(state)}
                 </option>
               ))}
             </TextField>

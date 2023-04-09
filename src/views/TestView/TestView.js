@@ -5,7 +5,7 @@ import {
   makeStyles
 } from '@material-ui/core';
 import Page from 'src/components/Page';
-import NavBar from './NavBar';
+import SubDashboardLayout from 'src/layouts/SubDashboardLayout';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -24,11 +24,9 @@ function TestView() {
       className={classes.root}
       title="My Users"
     >
-      <Container maxWidth={false}>
-      <NavBar
-      />
-        Hi
-      </Container>
+      <SubDashboardLayout>
+
+      </SubDashboardLayout>
     </Page>
   );
 }
